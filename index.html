@@ -26,7 +26,7 @@
     <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900; float: center;">CONTACTANOS</button>
   </div>
 
-  <div class="w3-third w3-right" id="myRight">
+  <div class="w3-third" style="text-align:center; margin-bottom: 3px;" id="myRight">
     <img src="logo1.png" width="150" height="150">
   </div>
 
@@ -211,7 +211,7 @@
     </script>
 </body>
 <style>
-  @media all and (max-width: 500px) {
+  @media only screen and (max-width: 768px) {
     #myLeft {
       float:center;
       text-align:center;
@@ -219,9 +219,11 @@
     #myCenter {
       float:center;
     }
+  }
+
+  @media only screen and (min-width: 769px) {
     #myRight {
-      float:center;
-      text-align: center;
+      text-align: right;
     }
   }
 </style>

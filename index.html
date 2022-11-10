@@ -16,18 +16,18 @@
 <header class="w3-container w3-theme" id="myHeader">
 
   
-  <div class="w3-third">
+  <div class="w3-third" id="myLeft">
     <h1 class=" w3-xxxlarge w3-animate-bottom">TIG WELDING</h1>
     <h5 class="w3-animate-bottom">SOLUCIONES INTEGRALES DE SOLDADURA PROFESIONAL</h5>
   </div>
   
 
-  <div class="w3-padding-16 w3-animate-bottom w3-center w3-third">
+  <div class="w3-padding-16 w3-animate-bottom w3-center w3-third" id="myCenter">
     <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900; float: center;">CONTACTANOS</button>
   </div>
 
-  <div class="w3-third">
-    <img src="logo1.png" class="w3-right" width="150" height="150">
+  <div class="w3-third w3-right" id="myRight">
+    <img src="logo1.png" width="150" height="150">
   </div>
 
 </header>
@@ -210,4 +210,19 @@
     }
     </script>
 </body>
+<style>
+  @media all and (max-width: 500px) {
+    #myLeft {
+      float:center;
+      text-align:center;
+    }
+    #myCenter {
+      float:center;
+    }
+    #myRight {
+      float:center;
+      text-align: center;
+    }
+  }
+</style>
 </html>

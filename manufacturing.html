@@ -208,17 +208,19 @@
     </script>
 </body>
 <style>
-  @media all and (max-width: 500px) {
+  @media only screen and (max-width: 768px) {
     #myLeft {
       float:center;
       text-align:center;
     }
-    #myCenter {
-      float:center;
-    }
+  }
+
+  @media only screen and (min-width: 769px) {
     #myRight {
-      float:center;
-      text-align: center;
+      text-align: right;
+    }
+    #myCenter {
+      margin-top: 30px;
     }
   }
 </style>

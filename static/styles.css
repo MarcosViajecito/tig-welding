@@ -1,0 +1,79 @@
+.mynav {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #myLeft {
+        float:center;
+        text-align:center;
+        font-size: 50%;
+    }
+    .mynav {
+        font-size: 16px;
+    }
+
+  }
+
+@media only screen and (min-width: 769px) {
+    #myRight {
+        text-align: right;
+    }
+    #myCenter {
+        margin-top: 30px;
+    }
+}
+
+
+#myRight {
+    text-align:center;
+    margin-bottom: 3px;
+}
+
+#myCenter {
+    font-weight:900; 
+    float: center;
+}
+
+#but_wapp {
+    background-color:#25D366;
+    border-radius: 3px;
+}
+
+.contacto {
+    text-decoration:none!important;
+    color: black;
+}
+
+.maincard {
+    min-height:400px;
+}
+
+.lastcard {
+    margin-bottom:10px;
+}
+
+a {
+    text-decoration: none!important;
+    color:black;
+}
+
+#but_mail {
+    background-color:#7CB9E8;
+    border-radius: 3px;
+}
+
+.slogan {
+    font-style: italic;
+}
+
+.onmodal {
+    margin-top: 28px;
+}
+
+#tigtitle {
+    font-family: Apple Chancery;
+    font-weight: 600;
+    color: #fff0f0;
+    text-shadow: 0px 0px 5px #e84242, 0px 0px 10px #e84242, 0px 0px 10px #960d0d, 0px 0px 20px #540000;
+}
+

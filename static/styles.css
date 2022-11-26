@@ -27,6 +27,8 @@
 #myRight {
     text-align:center;
     margin-bottom: 3px;
+    border-radius: 50%;
+
 }
 
 #myCenter {
@@ -76,4 +78,3 @@ a {
     color: #fff0f0;
     text-shadow: 0px 0px 5px #e84242, 0px 0px 10px #e84242, 0px 0px 10px #960d0d, 0px 0px 20px #540000;
 }
-
